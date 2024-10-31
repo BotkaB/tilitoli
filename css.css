@@ -1,0 +1,56 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+  }
+  section{
+	min-width:400px;
+	padding:20px;
+	margin: 10px auto 10px auto;
+  }
+  h1,p{
+    text-align:center;
+  }
+  h1{
+	color:#1f2839;
+	font-size:30px;
+	text-shadow: 4px 4px 2px #a79191;
+  }
+  #tologatos {
+	background:rgb(86, 86, 86);
+	font-size:30px;
+  text-align:center;
+	margin: auto;
+	border-color: rgb(86,86,86);
+	box-shadow: 10px 10px 5px #d0d0d0;
+  }
+  #gomb{
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin:auto;
+  }
+  .meret3 td{
+    /*font-size: 0; /*A beleírt szám ne látszódjon*/
+    background-size: 150px 150px!important;
+  }
+
+  .meret4 td{
+    /*font-size: 0; /*A beleírt szám ne látszódjon*/
+    background-size: 200px 200px!important;
+  }
+
+  .meret5 td{
+    /*font-size: 0; /*A beleírt szám ne látszódjon*/
+    background-size: 250px 250px!important;
+  }
+
+ 
+
+  @media only screen and (max-width: 500px){
+    section{
+      min-width:50px;
+    
+      }
+
+  }
+
